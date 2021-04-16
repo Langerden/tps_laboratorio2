@@ -1,0 +1,6 @@
+F:\Visual Code Projects\tps_laboratorio2\TP1_DeniseLanger\Entidades\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+F:\Visual Code Projects\tps_laboratorio2\TP1_DeniseLanger\Entidades\Entidades\bin\Debug\Entidades.exe.config
+F:\Visual Code Projects\tps_laboratorio2\TP1_DeniseLanger\Entidades\Entidades\bin\Debug\Entidades.exe
+F:\Visual Code Projects\tps_laboratorio2\TP1_DeniseLanger\Entidades\Entidades\bin\Debug\Entidades.pdb
+F:\Visual Code Projects\tps_laboratorio2\TP1_DeniseLanger\Entidades\Entidades\obj\Debug\Entidades.exe
+F:\Visual Code Projects\tps_laboratorio2\TP1_DeniseLanger\Entidades\Entidades\obj\Debug\Entidades.pdb

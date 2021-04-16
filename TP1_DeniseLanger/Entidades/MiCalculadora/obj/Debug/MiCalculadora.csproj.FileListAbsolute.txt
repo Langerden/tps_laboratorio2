@@ -1,0 +1,14 @@
+F:\Visual Code Projects\tps_laboratorio2\TP1_DeniseLanger\Entidades\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+F:\Visual Code Projects\tps_laboratorio2\TP1_DeniseLanger\Entidades\MiCalculadora\bin\Debug\MiCalculadora.exe
+F:\Visual Code Projects\tps_laboratorio2\TP1_DeniseLanger\Entidades\MiCalculadora\bin\Debug\MiCalculadora.pdb
+F:\Visual Code Projects\tps_laboratorio2\TP1_DeniseLanger\Entidades\MiCalculadora\bin\Debug\Entidades.exe
+F:\Visual Code Projects\tps_laboratorio2\TP1_DeniseLanger\Entidades\MiCalculadora\bin\Debug\Entidades.pdb
+F:\Visual Code Projects\tps_laboratorio2\TP1_DeniseLanger\Entidades\MiCalculadora\bin\Debug\Entidades.exe.config
+F:\Visual Code Projects\tps_laboratorio2\TP1_DeniseLanger\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+F:\Visual Code Projects\tps_laboratorio2\TP1_DeniseLanger\Entidades\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
+F:\Visual Code Projects\tps_laboratorio2\TP1_DeniseLanger\Entidades\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+F:\Visual Code Projects\tps_laboratorio2\TP1_DeniseLanger\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+F:\Visual Code Projects\tps_laboratorio2\TP1_DeniseLanger\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+F:\Visual Code Projects\tps_laboratorio2\TP1_DeniseLanger\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+F:\Visual Code Projects\tps_laboratorio2\TP1_DeniseLanger\Entidades\MiCalculadora\obj\Debug\MiCalculadora.exe
+F:\Visual Code Projects\tps_laboratorio2\TP1_DeniseLanger\Entidades\MiCalculadora\obj\Debug\MiCalculadora.pdb

@@ -130,7 +130,10 @@ namespace Entidades
                 {
                     return "Valor Invalido";
                 }
-                else
+                else if (intNumero == 0)
+                {
+                    return "0";
+                } else 
                 {
                     intNumero = Math.Abs(intNumero);
                     while (intNumero > 0)

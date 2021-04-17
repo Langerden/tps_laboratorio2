@@ -121,25 +121,29 @@ namespace Entidades
         /// <returns>El decimal convertido a binario o en caso contrario devuelve "Valor inválido"</returns>
         public string DecimalBinario(string numero)
         {
-            string numeroBinario = "";
+            string numeroBinario = "0";
             char[] numeroBinarioCorrecto;
+            int numeroInt = 0;
 
-            if (int.TryParse(numero, out int intNumero))
+            if (double.TryParse(numero, out double parseNumero))
             {
-                if (numero.Equals(double.MinValue.ToString()))
+                numeroInt = (int) parseNumero;
+                if (parseNumero == double.MinValue)
                 {
                     return "Valor Invalido";
                 }
-                else if (intNumero == 0)
+                else if (numeroInt == 0)
                 {
-                    return "0";
+                    return numeroBinario;
                 } else 
                 {
-                    intNumero = Math.Abs(intNumero);
-                    while (intNumero > 0)
+                    numeroBinario = String.Empty;
+                    numeroInt = Math.Abs(numeroInt);
+                    while (numeroInt > 0)
                     {
-                        numeroBinario += intNumero % 2;
-                        intNumero /= 2;
+                        numeroBinario += numeroInt % 2;
+                        //numeroInt /= 2;
+                        numeroInt = (int) numeroInt / 2;
                     }
                 }
             }

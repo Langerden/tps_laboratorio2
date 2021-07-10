@@ -285,7 +285,6 @@ namespace Entidades.Clases
             catch (Exception ex)
             {
                 fileManager.Guardar(ex.ToString());
-                throw ex;
             }
             return auxList;
         }

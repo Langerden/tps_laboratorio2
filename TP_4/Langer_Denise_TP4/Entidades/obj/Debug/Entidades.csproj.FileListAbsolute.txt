@@ -4,3 +4,8 @@ F:\Visual Code Projects\tps_laboratorio2\TP_3\Langer_Denise_TP3\Entidades\obj\De
 F:\Visual Code Projects\tps_laboratorio2\TP_3\Langer_Denise_TP3\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 F:\Visual Code Projects\tps_laboratorio2\TP_3\Langer_Denise_TP3\Entidades\obj\Debug\Entidades.dll
 F:\Visual Code Projects\tps_laboratorio2\TP_3\Langer_Denise_TP3\Entidades\obj\Debug\Entidades.pdb
+F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\bin\Debug\Entidades.dll
+F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\bin\Debug\Entidades.pdb
+F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\obj\Debug\Entidades.dll
+F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\obj\Debug\Entidades.pdb

@@ -1,0 +1,4 @@
+Entidades.NoMaterialesException: No hay cantidad suficiente de Tela para fabricar el Juguete
+   en Entidades.Fabrica.ValidarProduccion(Juguete juguete, Int32 cantidad) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\Fabrica.cs:línea 132
+   en Formularios.FormRegistrarInflable.btn_Guardar_Click(Object sender, EventArgs e) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\FormPpal\FormRegistrarInflable.cs:línea 137
+-----------------------------------------------------------------------------------

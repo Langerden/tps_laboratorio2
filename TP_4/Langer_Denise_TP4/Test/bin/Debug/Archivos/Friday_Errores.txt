@@ -1,0 +1,660 @@
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_peluch'. Cannot insert duplicate key in object 'dbo.actuales_peluche'. The duplicate key value is (Peluche Consola, Osito).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:cf1f3803-8775-42fa-a3f7-4bee120bbcb2
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_peluch'. Cannot insert duplicate key in object 'dbo.actuales_peluche'. The duplicate key value is (Peluche Consola, Osito).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertarPeluche(Peluche peluche, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 155
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 49
+ClientConnectionId:cf1f3803-8775-42fa-a3f7-4bee120bbcb2
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_muñeco_1'. Cannot insert duplicate key in object 'dbo.actuales_muñeco'. The duplicate key value is (Muñeco Consola, CascaNuez).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:cf1f3803-8775-42fa-a3f7-4bee120bbcb2
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_muñeco_1'. Cannot insert duplicate key in object 'dbo.actuales_muñeco'. The duplicate key value is (Muñeco Consola, CascaNuez).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertMuñeco(Muñeco muñeco, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 127
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 47
+ClientConnectionId:cf1f3803-8775-42fa-a3f7-4bee120bbcb2
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_inflables'. Cannot insert duplicate key in object 'dbo.actuales_inflable'. The duplicate key value is (Inflable Consola, Colchoneta).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:cf1f3803-8775-42fa-a3f7-4bee120bbcb2
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_inflables'. Cannot insert duplicate key in object 'dbo.actuales_inflable'. The duplicate key value is (Inflable Consola, Colchoneta).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertarInflable(Inflable inflable, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 182
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 51
+ClientConnectionId:cf1f3803-8775-42fa-a3f7-4bee120bbcb2
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_peluch'. Cannot insert duplicate key in object 'dbo.actuales_peluche'. The duplicate key value is (Peluche Consola, Osito).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:cf1f3803-8775-42fa-a3f7-4bee120bbcb2
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_peluch'. Cannot insert duplicate key in object 'dbo.actuales_peluche'. The duplicate key value is (Peluche Consola, Osito).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertarPeluche(Peluche peluche, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 155
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 49
+ClientConnectionId:cf1f3803-8775-42fa-a3f7-4bee120bbcb2
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_muñeco_1'. Cannot insert duplicate key in object 'dbo.actuales_muñeco'. The duplicate key value is (Muñeco Consola, CascaNuez).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:cf1f3803-8775-42fa-a3f7-4bee120bbcb2
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_muñeco_1'. Cannot insert duplicate key in object 'dbo.actuales_muñeco'. The duplicate key value is (Muñeco Consola, CascaNuez).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertMuñeco(Muñeco muñeco, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 127
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 47
+ClientConnectionId:cf1f3803-8775-42fa-a3f7-4bee120bbcb2
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_inflables'. Cannot insert duplicate key in object 'dbo.actuales_inflable'. The duplicate key value is (Inflable Consola, Colchoneta).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:cf1f3803-8775-42fa-a3f7-4bee120bbcb2
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_inflables'. Cannot insert duplicate key in object 'dbo.actuales_inflable'. The duplicate key value is (Inflable Consola, Colchoneta).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertarInflable(Inflable inflable, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 182
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 51
+ClientConnectionId:cf1f3803-8775-42fa-a3f7-4bee120bbcb2
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_peluch'. Cannot insert duplicate key in object 'dbo.actuales_peluche'. The duplicate key value is (Peluche Consola, Osito).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:7d960274-dd03-4f42-bf5d-c924d6b3e023
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_peluch'. Cannot insert duplicate key in object 'dbo.actuales_peluche'. The duplicate key value is (Peluche Consola, Osito).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertarPeluche(Peluche peluche, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 155
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 49
+ClientConnectionId:7d960274-dd03-4f42-bf5d-c924d6b3e023
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_muñeco_1'. Cannot insert duplicate key in object 'dbo.actuales_muñeco'. The duplicate key value is (Muñeco Consola, CascaNuez).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:7d960274-dd03-4f42-bf5d-c924d6b3e023
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_muñeco_1'. Cannot insert duplicate key in object 'dbo.actuales_muñeco'. The duplicate key value is (Muñeco Consola, CascaNuez).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertMuñeco(Muñeco muñeco, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 127
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 47
+ClientConnectionId:7d960274-dd03-4f42-bf5d-c924d6b3e023
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_inflables'. Cannot insert duplicate key in object 'dbo.actuales_inflable'. The duplicate key value is (Inflable Consola, Colchoneta).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:7d960274-dd03-4f42-bf5d-c924d6b3e023
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_inflables'. Cannot insert duplicate key in object 'dbo.actuales_inflable'. The duplicate key value is (Inflable Consola, Colchoneta).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertarInflable(Inflable inflable, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 182
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 51
+ClientConnectionId:7d960274-dd03-4f42-bf5d-c924d6b3e023
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_peluch'. Cannot insert duplicate key in object 'dbo.actuales_peluche'. The duplicate key value is (Peluche Consola, Osito).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:7d960274-dd03-4f42-bf5d-c924d6b3e023
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_peluch'. Cannot insert duplicate key in object 'dbo.actuales_peluche'. The duplicate key value is (Peluche Consola, Osito).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertarPeluche(Peluche peluche, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 155
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 49
+ClientConnectionId:7d960274-dd03-4f42-bf5d-c924d6b3e023
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_muñeco_1'. Cannot insert duplicate key in object 'dbo.actuales_muñeco'. The duplicate key value is (Muñeco Consola, CascaNuez).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:7d960274-dd03-4f42-bf5d-c924d6b3e023
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_muñeco_1'. Cannot insert duplicate key in object 'dbo.actuales_muñeco'. The duplicate key value is (Muñeco Consola, CascaNuez).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertMuñeco(Muñeco muñeco, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 127
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 47
+ClientConnectionId:7d960274-dd03-4f42-bf5d-c924d6b3e023
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_inflables'. Cannot insert duplicate key in object 'dbo.actuales_inflable'. The duplicate key value is (Inflable Consola, Colchoneta).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:7d960274-dd03-4f42-bf5d-c924d6b3e023
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_inflables'. Cannot insert duplicate key in object 'dbo.actuales_inflable'. The duplicate key value is (Inflable Consola, Colchoneta).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertarInflable(Inflable inflable, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 182
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 51
+ClientConnectionId:7d960274-dd03-4f42-bf5d-c924d6b3e023
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_peluch'. Cannot insert duplicate key in object 'dbo.actuales_peluche'. The duplicate key value is (Peluche Consola, Osito).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:96baff93-d096-4db7-b23a-78666835c03a
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_peluch'. Cannot insert duplicate key in object 'dbo.actuales_peluche'. The duplicate key value is (Peluche Consola, Osito).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertarPeluche(Peluche peluche, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 155
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 49
+ClientConnectionId:96baff93-d096-4db7-b23a-78666835c03a
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_muñeco_1'. Cannot insert duplicate key in object 'dbo.actuales_muñeco'. The duplicate key value is (Muñeco Consola, CascaNuez).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:96baff93-d096-4db7-b23a-78666835c03a
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_muñeco_1'. Cannot insert duplicate key in object 'dbo.actuales_muñeco'. The duplicate key value is (Muñeco Consola, CascaNuez).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertMuñeco(Muñeco muñeco, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 127
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 47
+ClientConnectionId:96baff93-d096-4db7-b23a-78666835c03a
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_inflables'. Cannot insert duplicate key in object 'dbo.actuales_inflable'. The duplicate key value is (Inflable Consola, Colchoneta).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:96baff93-d096-4db7-b23a-78666835c03a
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_inflables'. Cannot insert duplicate key in object 'dbo.actuales_inflable'. The duplicate key value is (Inflable Consola, Colchoneta).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertarInflable(Inflable inflable, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 182
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 51
+ClientConnectionId:96baff93-d096-4db7-b23a-78666835c03a
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_peluch'. Cannot insert duplicate key in object 'dbo.actuales_peluche'. The duplicate key value is (Peluche Consola, Osito).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:47074209-9ae9-4d3a-838b-0b4ca0ccc790
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_peluch'. Cannot insert duplicate key in object 'dbo.actuales_peluche'. The duplicate key value is (Peluche Consola, Osito).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertarPeluche(Peluche peluche, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 155
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 49
+ClientConnectionId:47074209-9ae9-4d3a-838b-0b4ca0ccc790
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_muñeco_1'. Cannot insert duplicate key in object 'dbo.actuales_muñeco'. The duplicate key value is (Muñeco Consola, CascaNuez).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:47074209-9ae9-4d3a-838b-0b4ca0ccc790
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_muñeco_1'. Cannot insert duplicate key in object 'dbo.actuales_muñeco'. The duplicate key value is (Muñeco Consola, CascaNuez).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertMuñeco(Muñeco muñeco, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 127
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 47
+ClientConnectionId:47074209-9ae9-4d3a-838b-0b4ca0ccc790
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_inflables'. Cannot insert duplicate key in object 'dbo.actuales_inflable'. The duplicate key value is (Inflable Consola, Colchoneta).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:47074209-9ae9-4d3a-838b-0b4ca0ccc790
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_inflables'. Cannot insert duplicate key in object 'dbo.actuales_inflable'. The duplicate key value is (Inflable Consola, Colchoneta).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertarInflable(Inflable inflable, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 182
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 51
+ClientConnectionId:47074209-9ae9-4d3a-838b-0b4ca0ccc790
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_peluch'. Cannot insert duplicate key in object 'dbo.actuales_peluche'. The duplicate key value is (Peluche Consola, Osito).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:b6b0edd1-18ef-4e8e-8d5f-c46144783486
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_peluch'. Cannot insert duplicate key in object 'dbo.actuales_peluche'. The duplicate key value is (Peluche Consola, Osito).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertarPeluche(Peluche peluche, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 155
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 49
+ClientConnectionId:b6b0edd1-18ef-4e8e-8d5f-c46144783486
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_muñeco_1'. Cannot insert duplicate key in object 'dbo.actuales_muñeco'. The duplicate key value is (Muñeco Consola, CascaNuez).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:b6b0edd1-18ef-4e8e-8d5f-c46144783486
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_muñeco_1'. Cannot insert duplicate key in object 'dbo.actuales_muñeco'. The duplicate key value is (Muñeco Consola, CascaNuez).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertMuñeco(Muñeco muñeco, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 127
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 47
+ClientConnectionId:b6b0edd1-18ef-4e8e-8d5f-c46144783486
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_inflables'. Cannot insert duplicate key in object 'dbo.actuales_inflable'. The duplicate key value is (Inflable Consola, Colchoneta).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:b6b0edd1-18ef-4e8e-8d5f-c46144783486
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_inflables'. Cannot insert duplicate key in object 'dbo.actuales_inflable'. The duplicate key value is (Inflable Consola, Colchoneta).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertarInflable(Inflable inflable, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 182
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 51
+ClientConnectionId:b6b0edd1-18ef-4e8e-8d5f-c46144783486
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_peluch'. Cannot insert duplicate key in object 'dbo.actuales_peluche'. The duplicate key value is (Peluche Consola, Osito).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:e4ad2654-8ec0-4e7d-bf2d-9b132821c737
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_peluch'. Cannot insert duplicate key in object 'dbo.actuales_peluche'. The duplicate key value is (Peluche Consola, Osito).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertarPeluche(Peluche peluche, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 155
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 49
+ClientConnectionId:e4ad2654-8ec0-4e7d-bf2d-9b132821c737
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_muñeco_1'. Cannot insert duplicate key in object 'dbo.actuales_muñeco'. The duplicate key value is (Muñeco Consola, CascaNuez).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:e4ad2654-8ec0-4e7d-bf2d-9b132821c737
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_muñeco_1'. Cannot insert duplicate key in object 'dbo.actuales_muñeco'. The duplicate key value is (Muñeco Consola, CascaNuez).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertMuñeco(Muñeco muñeco, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 127
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 47
+ClientConnectionId:e4ad2654-8ec0-4e7d-bf2d-9b132821c737
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_inflables'. Cannot insert duplicate key in object 'dbo.actuales_inflable'. The duplicate key value is (Inflable Consola, Colchoneta).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:e4ad2654-8ec0-4e7d-bf2d-9b132821c737
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_inflables'. Cannot insert duplicate key in object 'dbo.actuales_inflable'. The duplicate key value is (Inflable Consola, Colchoneta).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertarInflable(Inflable inflable, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 182
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 51
+ClientConnectionId:e4ad2654-8ec0-4e7d-bf2d-9b132821c737
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_peluch'. Cannot insert duplicate key in object 'dbo.actuales_peluche'. The duplicate key value is (Peluche Consola, Osito).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:a58cee88-c701-46e3-8233-d075a668461b
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_peluch'. Cannot insert duplicate key in object 'dbo.actuales_peluche'. The duplicate key value is (Peluche Consola, Osito).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertarPeluche(Peluche peluche, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 155
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 49
+ClientConnectionId:a58cee88-c701-46e3-8233-d075a668461b
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_muñeco_1'. Cannot insert duplicate key in object 'dbo.actuales_muñeco'. The duplicate key value is (Muñeco Consola, CascaNuez).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:a58cee88-c701-46e3-8233-d075a668461b
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_muñeco_1'. Cannot insert duplicate key in object 'dbo.actuales_muñeco'. The duplicate key value is (Muñeco Consola, CascaNuez).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertMuñeco(Muñeco muñeco, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 127
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 47
+ClientConnectionId:a58cee88-c701-46e3-8233-d075a668461b
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_inflables'. Cannot insert duplicate key in object 'dbo.actuales_inflable'. The duplicate key value is (Inflable Consola, Colchoneta).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:a58cee88-c701-46e3-8233-d075a668461b
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_inflables'. Cannot insert duplicate key in object 'dbo.actuales_inflable'. The duplicate key value is (Inflable Consola, Colchoneta).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertarInflable(Inflable inflable, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 182
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 51
+ClientConnectionId:a58cee88-c701-46e3-8233-d075a668461b
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_peluch'. Cannot insert duplicate key in object 'dbo.actuales_peluche'. The duplicate key value is (Peluche Consola, Osito).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:f9ec77f0-41dc-428b-bd8e-e0e6b358641d
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_peluch'. Cannot insert duplicate key in object 'dbo.actuales_peluche'. The duplicate key value is (Peluche Consola, Osito).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertarPeluche(Peluche peluche, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 155
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 49
+ClientConnectionId:f9ec77f0-41dc-428b-bd8e-e0e6b358641d
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_muñeco_1'. Cannot insert duplicate key in object 'dbo.actuales_muñeco'. The duplicate key value is (Muñeco Consola, CascaNuez).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:f9ec77f0-41dc-428b-bd8e-e0e6b358641d
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_muñeco_1'. Cannot insert duplicate key in object 'dbo.actuales_muñeco'. The duplicate key value is (Muñeco Consola, CascaNuez).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertMuñeco(Muñeco muñeco, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 127
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 47
+ClientConnectionId:f9ec77f0-41dc-428b-bd8e-e0e6b358641d
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_inflables'. Cannot insert duplicate key in object 'dbo.actuales_inflable'. The duplicate key value is (Inflable Consola, Colchoneta).
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en Entidades.Clases.SQLConector.EjecutarQuery(String query) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 456
+ClientConnectionId:f9ec77f0-41dc-428b-bd8e-e0e6b358641d
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_actuales_inflables'. Cannot insert duplicate key in object 'dbo.actuales_inflable'. The duplicate key value is (Inflable Consola, Colchoneta).
+The statement has been terminated.
+   en Entidades.Clases.SQLConector.InsertarInflable(Inflable inflable, String nombreTable) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 182
+   en Entidades.Clases.SQLConector.InsertActual(Juguete juguete) en F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Entidades\Clases\SQLConector.cs:línea 51
+ClientConnectionId:f9ec77f0-41dc-428b-bd8e-e0e6b358641d
+Error Number:2627,State:1,Class:14
+-----------------------------------------------------------------------------------

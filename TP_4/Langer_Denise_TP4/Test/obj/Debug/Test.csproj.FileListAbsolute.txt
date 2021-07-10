@@ -8,13 +8,3 @@ F:\Visual Code Projects\tps_laboratorio2\TP_3\Langer_Denise_TP3\Test\obj\Debug\T
 F:\Visual Code Projects\tps_laboratorio2\TP_3\Langer_Denise_TP3\Test\obj\Debug\Test.csproj.CopyComplete
 F:\Visual Code Projects\tps_laboratorio2\TP_3\Langer_Denise_TP3\Test\obj\Debug\Test.exe
 F:\Visual Code Projects\tps_laboratorio2\TP_3\Langer_Denise_TP3\Test\obj\Debug\Test.pdb
-F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Test\bin\Debug\Test.exe.config
-F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Test\bin\Debug\Test.exe
-F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Test\bin\Debug\Test.pdb
-F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Test\bin\Debug\Entidades.dll
-F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Test\bin\Debug\Entidades.pdb
-F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Test\obj\Debug\Test.csproj.AssemblyReference.cache
-F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
-F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Test\obj\Debug\Test.csproj.CopyComplete
-F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Test\obj\Debug\Test.exe
-F:\Visual Code Projects\tps_laboratorio2\TP_4\Langer_Denise_TP4\Test\obj\Debug\Test.pdb
